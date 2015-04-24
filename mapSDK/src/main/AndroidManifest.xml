@@ -1,0 +1,6 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.baidu.mapsdk">
+
+    <!-- 百度地图Android SDK v3.4.0 -->
+
+</manifest>

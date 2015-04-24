@@ -1,0 +1,6 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.baidu.navisdk">
+
+    <!-- 百度导航Android SDK v1.1.0 -->
+
+</manifest>

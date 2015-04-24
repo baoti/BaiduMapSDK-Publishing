@@ -1,0 +1,35 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion androidCompileSdkVersion
+    buildToolsVersion androidBuildToolsVersion
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+}
+
+apply plugin: 'maven-publish'
+
+version = '3.4.0'
+description = '百度地图Android SDK v3.4.0'
+
+publishing {
+    repositories publishingRepositories
+
+    publications {
+        aar(MavenPublication) {
+            artifactId 'map-all'
+            artifact "build/outputs/aar/${project.name}-release.aar"
+        }
+    }
+}
+
+project.tasks.publish.dependsOn(project.tasks.build)
+project.tasks.publishToMavenLocal.dependsOn(project.tasks.build)
+
+model {
+    tasks.generatePomFileForAarPublication {
+        destination = file("$buildDir/generated-pom.xml")
+    }
+}
