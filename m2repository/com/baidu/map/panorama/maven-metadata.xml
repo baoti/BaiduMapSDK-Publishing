@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.baidu.map</groupId>
+  <artifactId>panorama</artifactId>
+  <version>1.3.0</version>
+  <versioning>
+    <versions>
+      <version>1.3.0</version>
+    </versions>
+    <lastUpdated>20150424104829</lastUpdated>
+  </versioning>
+</metadata>

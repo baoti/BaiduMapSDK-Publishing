@@ -38,12 +38,12 @@ allprojects {
         publishingRepositories = {
             maven {
 //                // change to point to your repo, e.g. http://my.org/repo
-//                url "$buildDir/repo"
-                url "http://192.168.200.92:8081/nexus/content/repositories/thirdparty"
-                credentials {
-                    username ""
-                    password ""
-                }
+                url "${rootProject.rootDir}/m2repository"
+//                url "http://192.168.200.92:8081/nexus/content/repositories/thirdparty"
+//                credentials {
+//                    username ""
+//                    password ""
+//                }
             }
         }
     }

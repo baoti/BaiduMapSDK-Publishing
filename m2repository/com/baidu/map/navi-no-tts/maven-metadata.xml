@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.baidu.map</groupId>
+  <artifactId>navi-no-tts</artifactId>
+  <version>1.1.0</version>
+  <versioning>
+    <versions>
+      <version>1.1.0</version>
+    </versions>
+    <lastUpdated>20150424104828</lastUpdated>
+  </versioning>
+</metadata>
