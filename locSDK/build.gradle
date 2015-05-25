@@ -11,8 +11,8 @@ dependencies {
 
 apply plugin: 'maven-publish'
 
-version = '5.1'
-description = 'Android定位SDKv5.1'
+version = '5.3'
+description = 'Android定位SDKv5.3'
 
 publishing {
     repositories publishingRepositories
