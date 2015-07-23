@@ -3,6 +3,11 @@ apply plugin: 'com.android.library'
 android {
     compileSdkVersion androidCompileSdkVersion
     buildToolsVersion androidBuildToolsVersion
+
+    defaultConfig {
+        minSdkVersion 7
+        consumerProguardFiles 'proguard-rules.pro'
+    }
 }
 
 dependencies {
@@ -11,8 +16,8 @@ dependencies {
 
 apply plugin: 'maven-publish'
 
-version = '3.4.0'
-description = '百度地图Android SDK v3.4.0'
+version = '3.5.0'
+description = '百度地图Android SDK v3.5.0'
 
 publishing {
     repositories publishingRepositories

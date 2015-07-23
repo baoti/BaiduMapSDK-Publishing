@@ -15,3 +15,9 @@
 #-keepclassmembers class fqcn.of.javascript.interface.for.webview {
 #   public *;
 #}
+
+-dontwarn vi.com.**
+-keep class vi.com.** {*;}
+
+-dontwarn com.baidu.**
+-keep class com.baidu.** { *; }
