@@ -2,7 +2,7 @@
     package="com.baidu.loc"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <!-- Android定位SDKv6.0.3 -->
+    <!-- Android定位SDKv6.0.5 -->
 
     <!-- 这个权限用于进行网络定位-->
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
@@ -33,11 +33,7 @@
             android:name="com.baidu.location.f"
             android:enabled="true"
             android:process=":remote">
-            <intent-filter>
-                <action android:name="com.baidu.location.service_v2.2"/>
-            </intent-filter>
         </service>
-
     </application>
 
 </manifest>
